@@ -77,6 +77,10 @@ section > h2 {
 a {
   color: var(--color-primary);
   transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
 }
 a:hover {
   color: var(--color-white);
